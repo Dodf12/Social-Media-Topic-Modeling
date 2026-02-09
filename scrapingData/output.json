@@ -1,0 +1,46 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "wAZvnd4FUUFcZKwfK8Mi-jNB0sc",
+    "nextPageToken": "CAEQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1031,
+        "resultsPerPage": 1
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yXcS3fVthMXvrUVIZU6LufYw4IM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "3BgdhHXJ-CU"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-18T16:00:02Z",
+                "channelId": "UClHVl2N3jPEbkNJVx-ItQIQ",
+                "title": "Can AI Replace Therapists? | Psychiatrist Explains",
+                "description": "The current buzz surrounds the impact of AI on diverse sectors, including mental health. The question on everyone's mind: Can AI ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3BgdhHXJ-CU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3BgdhHXJ-CU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3BgdhHXJ-CU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HealthyGamerGG",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-18T16:00:02Z"
+            }
+        }
+    ]
+}
