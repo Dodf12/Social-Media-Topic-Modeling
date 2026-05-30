@@ -2,9 +2,6 @@ import os
 from supabase import create_client, Client
 import json
 
-YOUR_PASSWORD = "bT+4g9mWgV+Kd-Z "
-SUPABASE_URL = f"https://yxfkplhpjgdwgfabrsrf.supabase.co"
-SUPABASE_KEY = "sb_publishable_DTSUBBYxEoDpsH5e9HP40g_Q1YiQKeK"
 
 
 

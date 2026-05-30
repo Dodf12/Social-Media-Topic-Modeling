@@ -14,9 +14,7 @@ from supabase import create_client, Client
 from googleapiclient.discovery import build
 
 # --- CONFIGURATION ---
-SUPABASE_URL = "https://yxfkplhpjgdwgfabrsrf.supabase.co"
-SUPABASE_KEY = "sb_publishable_DTSUBBYxEoDpsH5e9HP40g_Q1YiQKeK"
-YOUTUBE_API_KEY = "AIzaSyDwXkKkBKqaus41XH9CmD3hA5PeE_gthI8"
+
 
 # --- SUPABASE SETUP ---
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)

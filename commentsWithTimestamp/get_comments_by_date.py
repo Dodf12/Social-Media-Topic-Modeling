@@ -4,7 +4,6 @@ from datetime import datetime, timezone
 import csv
 import os
 
-YOUTUBE_API_KEY = "AIzaSyDwXkKkBKqaus41XH9CmD3hA5PeE_gthI8"
 
 prompts = [
     "My experience with ChatGPT as my therapist",

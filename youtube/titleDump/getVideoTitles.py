@@ -1,9 +1,6 @@
 import googleapiclient.discovery
 import json
 
-api_key = "AIzaSyDwXkKkBKqaus41XH9CmD3hA5PeE_gthI8"
-youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
-
 def get_video_titles(query, max_results=500):
     # Make a search request to retrieve video information
     search_response = youtube.search().list(

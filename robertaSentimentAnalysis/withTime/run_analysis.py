@@ -15,8 +15,6 @@ from transformers import pipeline
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ── 1. Fetch all rows (paginated) ─────────────────────────────────────────────
-SUPABASE_URL = "https://yxfkplhpjgdwgfabrsrf.supabase.co"
-SUPABASE_KEY = "sb_publishable_DTSUBBYxEoDpsH5e9HP40g_Q1YiQKeK"
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
